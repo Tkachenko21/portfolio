@@ -12,7 +12,6 @@ body{
 }
 header .container{
     display: flex;
-    background-image: url("../assets/bg.jpg");
     justify-content: space-between;
 }
 header{
@@ -23,17 +22,14 @@ header{
 .div-header{
     display: flex;
 }
-.div-header__nav{
+.div-nav{
     display: flex;
     align-items: center;
 }
-.logo:hover{
-    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
-}
-.div-header__logo{
+.div-logo{
     margin: 20px;
 }
-.div-header__language{
+.div-language{
     display: flex;
     margin-right: 20px;
     font-weight: bold;
@@ -55,9 +51,6 @@ header{
     color: white;
     padding: 20px 15px;
 }
-.nav__link:hover{
-    color: #bdae82;
-}
 .text--gold{
     color: #bdae82;
 }
@@ -68,11 +61,11 @@ header{
 }
 .div-about{
     height: 820px;
-    background-image: url("../assets/bg.jpg");
+    background-image: url("../ASSETS/bg.jpg");
     background-repeat: no-repeat;
     background-position: 0px -95px;
 }
-.div-about-box{
+.div-box{
     padding-top: 160px;
     padding-left: 80px;
     width: 500px;
@@ -99,9 +92,6 @@ h1{
     font-family: 'Inter';
     font-size: 20px;
     cursor: pointer;
-}
-.section-about__button:hover{
-    color: white;
 }
 .section__title{
     margin-top: 5px;
@@ -153,9 +143,6 @@ h1{
     font-family: 'Inter';
     font-size: 20px;
 }
-.button-winter:hover{
-    color: white;
-}
 .button-spring{
     color: #bdae82;
     width: 220px;
@@ -166,9 +153,6 @@ h1{
     background-color: black;
     font-family: 'Inter';
     font-size: 20px;
-}
-.button-spring:hover{
-    color: white;
 }
 .button-summer{
     color: #bdae82;
@@ -181,9 +165,6 @@ h1{
     font-family: 'Inter';
     font-size: 20px;
 }
-.button-summer:hover{
-    color: white;
-}
 .button-autumn{
     width: 220px;
     height: 55px;
@@ -193,9 +174,6 @@ h1{
     background-color: #bdae82;
     font-family: 'Inter';
     font-size: 20px;
-}
-.button-autumn:hover{
-    color: white;
 }
 .div-portfolio-photos{
     display: flex;
