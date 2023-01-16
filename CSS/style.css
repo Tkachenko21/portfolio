@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    background-image: url("../assets/bg.jpg");
+    justify-content: space-between;
+}
+header{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 100;
+}
+.div-header{
+    display: flex;
+}
+.div-header__nav{
+    display: flex;
+    align-items: center;
+}
+.logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+.div-header__logo{
+    margin: 20px;
+}
+.div-header__language{
+    display: flex;
+    margin-right: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+.header__language-en{
+    color: white;
+}
+.header__language-ru{
+    text-decoration: none;
+    color: white;
+}
+.header__list{
+    list-style-type: none;
+    display: flex;
+}
+.nav__link{
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+.nav__link:hover{
+    color: #bdae82;
+}
+.text--gold{
+    color: #bdae82;
+}
+.section-about{
+    height: 820px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.div-about{
+    height: 820px;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -95px;
+}
+.div-about-box{
+    padding-top: 160px;
+    padding-left: 80px;
+    width: 500px;
+    height: 330px;
+}
+h1{
+    color: white;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 60px;
+}
+.section-about__text{
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    padding: 25px 0;
+    line-height: 2;
+}
+.section-about__button{
+    width: 220px;
+    height: 55px;
+    background-color: #bdae82;
+    color: black;
+    font-family: 'Inter';
+    font-size: 20px;
+    cursor: pointer;
+}
+.section-about__button:hover{
+    color: white;
+}
+.section__title{
+    margin-top: 5px;
+    margin-bottom: 160px;
+    color: #bdae82;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.div-skills-box{
+    display: flex;
+    justify-content: center;
+}
+.div-skills__element{
+    width: 320px;
+    height: 240px;
+    color: white;
+    text-align: center;
+    margin: 0 20px;
+    font-family: 'Inter';
+}
+.section-skills__title{
+    font-size: 20;
+    font-weight: bold;
+    margin: 50px 0px 20px 0px;
+}
+.section-skills__text{
+    font-size: 18px;
+    line-height: 2;
+}
+.section-portfolio .section__title{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.div-portfolio-season{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.button-winter{
+    color: #bdae82;
+    width: 220px;
+    height: 55px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: solid 2px #bdae82;
+    background-color: black;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.button-winter:hover{
+    color: white;
+}
+.button-spring{
+    color: #bdae82;
+    width: 220px;
+    height: 55px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: solid 2px #bdae82;
+    background-color: black;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.button-spring:hover{
+    color: white;
+}
+.button-summer{
+    color: #bdae82;
+    width: 220px;
+    height: 55px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: solid 2px #bdae82;
+    background-color: black;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.button-summer:hover{
+    color: white;
+}
+.button-autumn{
+    width: 220px;
+    height: 55px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: solid 2px #bdae82;
+    background-color: #bdae82;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.button-autumn:hover{
+    color: white;
+}
+.div-portfolio-photos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
